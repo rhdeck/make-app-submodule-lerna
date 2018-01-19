@@ -1,0 +1,38 @@
+{
+  "name": "make-app-submodule-lerna",
+  "version": "1.0.0",
+  "description": "MakeApp helper for lerna-based submodules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdeck/make-app-submodule-lerna.git"
+  },
+  "keywords": [
+    "make-app",
+    "git",
+    "submodule",
+    "lerna"
+  ],
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/make-app-submodule-lerna/issues"
+  },
+  "homepage": "https://github.com/rhdeck/make-app-submodule-lerna#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "make-app-git": "^1.0.0",
+    "manage-submodules": "^1.1.0",
+    "rimraf": "^2.6.2",
+    "yarnif": "^1.1.0"
+  },
+  "bin": {
+    "buildsubmodules": "cli.js"
+  },
+  "makeApp": {
+    "runEarly": "buildsubmodules"
+  }
+}
