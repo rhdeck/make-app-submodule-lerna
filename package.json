@@ -10,12 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/rhdeck/make-app-submodule-lerna.git"
   },
-  "keywords": [
-    "make-app",
-    "git",
-    "submodule",
-    "lerna"
-  ],
+  "keywords": ["make-app", "git", "submodule", "lerna"],
   "author": "Ray Deck",
   "license": "MIT",
   "bugs": {
@@ -33,6 +28,7 @@
     "buildsubmodules": "cli.js"
   },
   "makeApp": {
-    "runEarly": "buildsubmodules"
+    "runEarly": "buildsubmodules",
+    "dependencies": "make-app-submodule-lerna"
   }
 }
