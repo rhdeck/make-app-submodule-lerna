@@ -20,6 +20,7 @@
   "dependencies": {
     "glob": "^7.1.2",
     "make-app-git": "rhdeck/make-app-git",
+    "make-app-submodule": "rhdeck/make-app-submodule",
     "manage-submodules": "rhdeck/manage-submodules",
     "rimraf": "^2.6.2",
     "yarnif": "^1.1.0"

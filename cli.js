@@ -7,6 +7,7 @@ const Path = require("path");
 const rimraf = require("rimraf");
 const basedir = process.cwd();
 msm.walkAll(thisdir => {
+  console.log("Hellot here");
   yarnif.exec("lerna", ["bootstrap"]);
   yarnif.exec("lerna", ["run", "build"]);
   yarnif.exec("lerna", ["run", "link"]);
