@@ -6,6 +6,7 @@ const fs = require("fs");
 const Path = require("path");
 const rimraf = require("rimraf");
 const basedir = process.cwd();
+msm.updateAll();
 msm.walkAll(thisdir => {
   console.log("Hellot here");
   yarnif.install();
